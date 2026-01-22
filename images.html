@@ -7,27 +7,27 @@
     </head>
     <body>
         <div class="nav_bar d-flex flex-row-reverse">
-            <a href="index.html">Regular Search</a>
-            <a href="advanced_search.html">Advanced Search</a>
+            <a href="index.html">
+                <img src="assets/moogle.jpg" alt="Back to Moogle Search">
+            </a>
         </div>
 
         <div class="logo">
-                    <img src="assets/moogle_image.jpg" alt="Moogle Logo">
+            <img src="assets/moogle_image.jpg" alt="Moogle Logo">
+        </div>
+                
+        <div class="center_box">
+            <!-- In <form>, Once the submit input were clicked, the value and key (name) with parameter "name" were sent by browser (Strict Set of key-value pair)-->
+            <!-- The fun fact is that the value "I'm+Feeling+Lucky" is just a passenger, it is useless for server!-->
+            <form action="https://google.com/search">
+                <input type="text" name="q" id="search_bar">
+                <div class="button_list">
+                    <button type="submit" value="2" class="button" name="udm">
+                        Moogle Search
+                    </button>
                 </div>
                 
-                <div class="center_box">
-
-                    <!-- In <form>, Once the submit input were clicked, the value and key (name) with parameter "name" were sent by browser (Strict Set of key-value pair)-->
-                    <!-- The fun fact is that the value "I'm+Feeling+Lucky" is just a passenger, it is useless for server!-->
-                    <form action="https://google.com/search">
-                        <input type="text" name="q" id="search_bar">
-                        <div class="button_list">
-                            <button type="submit" value="2" class="button" name="udm">
-                                Moogle Search
-                            </button>
-                        </div>
-                        
-                    </form>
+            </form>
         </div>
     </body>
 </html>

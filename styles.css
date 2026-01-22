@@ -3,17 +3,15 @@
   background-color: #202124;
 }
 
-img {
-  max-width: 20rem;
-  height: auto;
-  background-color: #202124;
-}
-
 .nav_bar {
   font-family: arial, sans-serif;
   background-color: #202124;
   color: white;
   padding: 20px;
+}
+.nav_bar img {
+  height: 2rem;
+  width: auto;
 }
 .nav_bar a {
   margin-left: 20px;
@@ -29,6 +27,11 @@ img {
   text-align: center;
   background-color: #202124;
   padding-top: max(15vh, 0px);
+}
+.logo img {
+  max-width: 20rem;
+  height: auto;
+  background-color: #202124;
 }
 
 .center_box {

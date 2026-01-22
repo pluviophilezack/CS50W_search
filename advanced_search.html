@@ -7,13 +7,36 @@
     </head>
     <body>
         <div class="nav_bar d-flex flex-row-reverse">
-            <a href="index.html">Regular Search</a>
-            <a href="images.html">Images</a>
+            <a href="index.html">
+                <img src="assets/moogle.jpg" alt="Back to Moogle Search">
+            </a>
         </div>
+
+        <label class="title">Advanced Search</label>
+
+        <div class="subtitle">Find pages with...</div>
         
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <div class="a_kind">
+                <label class="fine">all these words:</label>
+                <input class="box" type="text" name="as_q">
+            </div>
+            <div class="a_kind">
+                <label class="fine">this exact word or phrase:</label>
+                <input class="box" type="text" name="as_epq">
+            </div>
+            <div class="a_kind">
+                <label class="fine">any of these words:</label>
+                <input class="box" type="text" name="as_oq">
+            </div>
+            <div class="a_kind">
+                <label class="fine">none of these words:</label>
+                <input class="box" type="text" name="as_eq">
+            </div>
+
+            <button type="submit" class="button">
+                Advanced Search
+            </button>
         </form>
     </body>
 </html>

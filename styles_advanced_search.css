@@ -1,3 +1,17 @@
+:root {
+  font-family: Google Sans, arial, sans-serif;
+  background-color: #202124;
+}
 
+.nav_bar {
+  font-family: arial, sans-serif;
+  background-color: #202124;
+  color: white;
+  padding: 20px;
+}
+.nav_bar img {
+  height: 2rem;
+  width: auto;
+}
 
 /*# sourceMappingURL=styles_advanced_search.css.map */

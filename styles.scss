@@ -10,17 +10,20 @@ $font-color: white;
     background-color: $background-color;
 }
 
-img{
-    max-width: 20rem;
-    height: auto;
-    background-color: $background-color;
-}
+
 
 .nav_bar {
     font-family:arial, sans-serif;
     background-color: $background-color;
     color: $font-color;
     padding: 20px;
+
+    img {
+        height: 2rem;
+        width: auto;
+    }
+
+
     a {
         margin-left: 20px; 
         color: inherit;
@@ -30,12 +33,18 @@ img{
     color: inherit;
     text-decoration: underline;
     }   
+
 }
 
 .logo {
     text-align: center;
     background-color: $background-color;
     padding-top: max(15vh, 0px);
+    img{
+    max-width: 20rem;
+    height: auto;
+    background-color: $background-color;
+    }
 }
 
 .center_box{
