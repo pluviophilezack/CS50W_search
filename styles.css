@@ -37,6 +37,7 @@ img {
 }
 
 #search_bar {
+  display: block;
   color: white;
   background-color: #4d5156;
   border: 0px;
@@ -44,6 +45,7 @@ img {
   min-width: 95%;
   height: 3rem;
   padding: 0px 25px;
+  margin: 0px auto;
 }
 
 #search_bar:focus {

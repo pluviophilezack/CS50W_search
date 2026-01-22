@@ -11,14 +11,23 @@
             <a href="advanced_search.html">Advanced Search</a>
         </div>
 
-        
+        <div class="logo">
+                    <img src="assets/moogle_image.jpg" alt="Moogle Logo">
+                </div>
+                
+                <div class="center_box">
 
-        <div class="center_box">
-            <form action="https://google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
-            </form>
+                    <!-- In <form>, Once the submit input were clicked, the value and key (name) with parameter "name" were sent by browser (Strict Set of key-value pair)-->
+                    <!-- The fun fact is that the value "I'm+Feeling+Lucky" is just a passenger, it is useless for server!-->
+                    <form action="https://google.com/search">
+                        <input type="text" name="q" id="search_bar">
+                        <div class="button_list">
+                            <button type="submit" value="2" class="button" name="udm">
+                                Moogle Search
+                            </button>
+                        </div>
+                        
+                    </form>
         </div>
-
     </body>
 </html>
