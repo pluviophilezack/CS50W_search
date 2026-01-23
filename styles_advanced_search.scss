@@ -9,6 +9,7 @@ $font-color: white;
     background-color: $background-color;
 }
 
+
 .nav_bar {
     font-family:arial, sans-serif;
     background-color: $background-color;
@@ -30,29 +31,59 @@ $font-color: white;
     // }   
 }
 
+main{
+    padding: 0px 20px;
+    background-color: $background-color;
+}
+
 // TODO: Complete CSS
 
-// .title{
+.title{
+    display: block;
+    color: #f28b82;
+    background-color: $background-color;
+    font-size: 1.4rem;
+    border-bottom: 1px lightgray solid;
+    padding: 25px 35px;
 
-// }
+}
 
-// .subtitle{
+.subtitle{
+    background-color: $background-color;
+    color: $font-color;
+    padding: 25px 35px;
+}
 
-// }
+.a_kind{
+    padding: 5px 35px;
+
+    .fine{
+        color: gray;
+        width: 12rem;
+        
+    }
+
+    .box{
+        background-color: $background-color;
+        border: solid 1px gray;
+        width: 50vw;
+        color: $font-color;
+    }
+}
+
+.button_parent{
+    text-align: right;
+    margin: 10px 0px;
+}
 
 
-// .a_kind{
-
-//     .fine{
-
-//     }
-
-//     .box{
-
-//     }
-// }
-
-
-// .button{
-
-// }
+.button{
+    font-weight: 500;
+    background-color: #8ab4f8;
+    border-color: #8ab4f8;
+    color: #202124;
+    border: none;
+    border-radius: 3px;
+    
+    padding: 3px 10px;
+}
