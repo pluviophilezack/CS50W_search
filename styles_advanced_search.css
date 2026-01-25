@@ -15,7 +15,6 @@
 }
 
 main {
-  padding: 0px 20px;
   background-color: #202124;
 }
 
@@ -25,21 +24,22 @@ main {
   background-color: #202124;
   font-size: 1.4rem;
   border-bottom: 1px lightgray solid;
-  padding: 25px 35px;
+  padding: 25px 30px;
 }
 
 .subtitle {
   background-color: #202124;
   color: white;
-  padding: 25px 35px;
+  padding: 25px 30px;
 }
 
 .a_kind {
-  padding: 5px 35px;
+  padding: 5px 30px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 .a_kind .fine {
   color: gray;
-  width: 12rem;
 }
 .a_kind .box {
   background-color: #202124;

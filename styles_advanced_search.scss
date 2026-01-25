@@ -3,6 +3,7 @@ $search-bar-color: #4d5156;
 $search-bar-color-focus: #303134;
 $button-color: #303134;
 $font-color: white;
+$padding-left-right:30px;
 
 :root {
     font-family: Google Sans, arial, sans-serif;
@@ -32,7 +33,6 @@ $font-color: white;
 }
 
 main{
-    padding: 0px 20px;
     background-color: $background-color;
 }
 
@@ -44,22 +44,25 @@ main{
     background-color: $background-color;
     font-size: 1.4rem;
     border-bottom: 1px lightgray solid;
-    padding: 25px 35px;
+    padding: 25px $padding-left-right;
 
 }
 
 .subtitle{
     background-color: $background-color;
     color: $font-color;
-    padding: 25px 35px;
+    padding: 25px $padding-left-right;
 }
 
 .a_kind{
-    padding: 5px 35px;
+    padding: 5px $padding-left-right;
+    // 避免input 換行
+    display: flex;
+    flex-wrap: nowrap;
 
     .fine{
         color: gray;
-        width: 12rem;
+        // min-width: 12rem;
         
     }
 
