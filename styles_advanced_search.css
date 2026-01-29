@@ -40,6 +40,7 @@ main {
 }
 .a_kind .fine {
   color: gray;
+  min-width: 12rem;
 }
 .a_kind .box {
   background-color: #202124;
